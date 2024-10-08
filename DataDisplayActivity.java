@@ -66,7 +66,7 @@ public class DataDisplayActivity extends AppCompatActivity {
                 dialog.show();
 
                 // Set OnClickListener for the "Add" button inside the add_item.xml layout
-                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // Assuming your button ID is addButton
+                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // addButton
                 addButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -108,7 +108,7 @@ public class DataDisplayActivity extends AppCompatActivity {
                 dialog.show();
 
                 // Set OnClickListener for the "Add" button inside the add_item.xml layout
-                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // Replace with the actual ID of the button
+                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // buttonAddItem
                 addButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -154,7 +154,7 @@ public class DataDisplayActivity extends AppCompatActivity {
                 dialog.show();
 
                 // Set OnClickListener for the "Add" button inside the add_item.xml layout
-                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // Replace with the actual ID of the button
+                Button addButton = dialogView.findViewById(R.id.buttonAddItem); // buttonAddItem
                 addButton.setText("Remove"); // Change the text to "Remove"
                 addButton.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -216,7 +216,7 @@ public class DataDisplayActivity extends AppCompatActivity {
         dialog.show();
 
         // Set OnClickListener for the "Add" button inside the add_item.xml layout
-        Button addButton = dialogView.findViewById(R.id.buttonAddItem); // Replace with the actual ID of the button
+        Button addButton = dialogView.findViewById(R.id.buttonAddItem); // buttonAddItem
         addButton.setText("Increase"); // Change the text to "Increase"
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -279,7 +279,7 @@ public class DataDisplayActivity extends AppCompatActivity {
         dialog.show();
 
         // Set OnClickListener for the "Add" button inside the add_item.xml layout
-        Button decreaseButton = dialogView.findViewById(R.id.buttonAddItem); // Replace with the actual ID of the button
+        Button decreaseButton = dialogView.findViewById(R.id.buttonAddItem); // buttonAddItem
         decreaseButton.setText("Decrease"); // Change the text to "Decrease"
         decreaseButton.setOnClickListener(new View.OnClickListener() {
             @Override
